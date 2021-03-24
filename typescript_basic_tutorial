@@ -1,0 +1,25 @@
+---> Run program on console: Please install node ts to run
+    - Run $tsc Welcome.ts
+    - Then run $node Welcome.js
+    - Compile with compiler flag: $tsc --target ES5 --noEmitError Welcome.ts
+---> Variables: Typescript is strongly type
+    let [varname]:[vartype] = value;
+    - Example: let presidentName:String = "Minh beo";
+    - Type: any means a var can be any type
+
+---> Array: let myArray: string[] = ["a", "b", "c"]
+    To add more into array: myArray.push("d")
+
+---> Loop:
+    for loop:
+    for (let teammateIndex = 0; teammateIndex < myTeammates.length; teammateIndex++){
+                  console.log(myTeammates[teammateIndex])
+              }
+
+---> Create class: similar to Java, please view the source code for more info
+    Accessors: access to data in class such as getter and setter
+
+---> For OOP, tsconfig.json is required :)) because you will not have time to tsc every classes
+    Create file: $tsc --init
+    Add line     "noEmitOnError": true,
+    Compile: we just run $tsc to compile every *.tsc
